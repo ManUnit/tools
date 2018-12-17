@@ -1,7 +1,7 @@
 // convertkey.js 
 var keythereum = require("keythereum");
 
-var datadir = "/opt/Blockchain/ICO-Node1/";
+var datadir = "/opt/Blockchain/node-datadir/";   // keystore directory under this
 
 var address= "0x891fc997a979288a4aebfcd26737e874150de48f";
 
