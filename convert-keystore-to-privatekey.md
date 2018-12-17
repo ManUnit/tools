@@ -39,9 +39,13 @@ Repeat passphrase:  Mypasswrd
 Address: {891fc997a979288a4aebfcd26737e874150de48f}
 
 anan@BlockSlave:/opt/Blockchain/tools$ ls -al keystore/
+
 total 16
+
 drwxrwxr-x 2  4096 ธ.ค.  17 16:43 .
+
 drwxr-xr-x 4  4096 ธ.ค.  17 16:42 ..
+
 -rw------- 1   491 ธ.ค.  17 16:39 UTC--2018-12-17T09-39-00.856914473Z--891fc997a979288a4aebfcd26737e874150de48f
 
 anan@BlockSlave:/opt/Blockchain/tools$ 
