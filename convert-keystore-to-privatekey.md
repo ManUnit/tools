@@ -34,7 +34,7 @@ Repeat passphrase:  Mypasswrd
 
 Address: {891fc997a979288a4aebfcd26737e874150de48f}
 
-anan@BlockSlave:/opt/Blockchain/tools$ ls -al keystore/
+manunit@BlockSlave:/opt/Blockchain/tools$ ls -al keystore/
 
 total 16
 
