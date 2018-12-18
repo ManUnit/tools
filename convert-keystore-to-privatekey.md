@@ -1,4 +1,6 @@
-// Java Script  convertkey.js 
+// Java Script  convertkey.js
+
+```ruby
 
 var keythereum = require("keythereum");
 
@@ -17,7 +19,7 @@ var privateKey = keythereum.recover(password, keyObject);
 console.log(privateKey.toString('hex'));
 
 // save  
-
+```
 
 linux-$  node  convert.js 
 
