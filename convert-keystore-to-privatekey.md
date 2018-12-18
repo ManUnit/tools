@@ -1,4 +1,5 @@
-// convertkey.js 
+// Java Script  convertkey.js 
+
 var keythereum = require("keythereum");
 
 var datadir = "/opt/Blockchain/node-datadir/";   // keystore directory under this and key file insided this
