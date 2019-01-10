@@ -37,3 +37,29 @@ export MANPATH=$LINUXBREWHOME/man:$MANPATH
 export PKG_CONFIG_PATH=$LINUXBREWHOME/lib64/pkgconfig:$LINUXBREWHOME/lib/pkgconfig:$PKG_CONFIG_PATH
 export LD_LIBRARY_PATH=$LINUXBREWHOME/lib64:$LINUXBREWHOME/lib:$LD_LIBRARY_PATH
 ```
+
+# step 4 Run update brew  
+- request relogin on run bash command $bash to get new environment of bashrc
+```ruby
+$ brew pdate
+```
+# step 5 install brew tap web3j/web3j and install web3j 
+```ruby
+$ brew tap web3j/web3j 
+$ brew install web3j 
+```
+# step 6 run test web3j
+```ruby
+user:~$ web3j
+
+              _      _____ _     _        
+             | |    |____ (_)   (_)       
+__      _____| |__      / /_     _   ___  
+\ \ /\ / / _ \ '_ \     \ \ |   | | / _ \ 
+ \ V  V /  __/ |_) |.___/ / | _ | || (_) |
+  \_/\_/ \___|_.__/ \____/| |(_)|_| \___/ 
+                         _/ |             
+                        |__/              
+
+Usage: web3j version|wallet|solidity .
+```
