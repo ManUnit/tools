@@ -1,8 +1,8 @@
 # How to install web3j Java play Ethereum 
-*Step1
+###Step1
 
--Preparing for LinuxBrew – Debian/Ubuntu
--For Debian/Ubuntu-based systems, run the following commands:
+- Preparing for LinuxBrew – Debian/Ubuntu
+- For Debian/Ubuntu-based systems, run the following commands:
 ```ruby
 $ sudo apt-get update
 $ sudo apt-get upgrade -y
