@@ -38,9 +38,10 @@ export PKG_CONFIG_PATH=$LINUXBREWHOME/lib64/pkgconfig:$LINUXBREWHOME/lib/pkgconf
 export LD_LIBRARY_PATH=$LINUXBREWHOME/lib64:$LINUXBREWHOME/lib:$LD_LIBRARY_PATH
 ```
 
-# step 4 Run update brew  
-- request relogin on run bash command $bash to get new environment of bashrc
+# step 4 Run update brew before install web3j
+- request relogin or run bash command $bash to get new environment of bashrc
 ```ruby
+$ bash
 $ brew update
 ```
 # step 5 install brew tap web3j/web3j and install web3j 
