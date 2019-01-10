@@ -1,5 +1,5 @@
 # How to install web3j Java play Ethereum 
-* Step1
+# Step1
 - Preparing for LinuxBrew – Debian/Ubuntu
 - For Debian/Ubuntu-based systems, run the following commands:
 ```ruby
@@ -12,15 +12,18 @@ $ sudo sudo apt-get install -y build-essential make cmake scons curl git \
                                libexpat-dev libncurses-dev
 ```
 
-step 2
-
+# step 2
+– Clone LinuxBrew
+- To keep things tidy, clone LinuxBrew into a hidden directory in the user’s home directory:
 ```ruby
                                
 git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
        
 ```
 
-step 3
+# step 3 Update environment variables
+- The next step is to add LinuxBrew to the user’s environment variables.
+- Add the following lines to the end of the user’s ~/.bashrc file:
 
 ```ruby
                                
