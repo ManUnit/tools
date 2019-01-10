@@ -41,7 +41,7 @@ export LD_LIBRARY_PATH=$LINUXBREWHOME/lib64:$LINUXBREWHOME/lib:$LD_LIBRARY_PATH
 # step 4 Run update brew  
 - request relogin on run bash command $bash to get new environment of bashrc
 ```ruby
-$ brew pdate
+$ brew update
 ```
 # step 5 install brew tap web3j/web3j and install web3j 
 ```ruby
