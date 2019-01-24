@@ -22,7 +22,7 @@ coinbase.CreateAsset = function(_password, callback) {
 
 }
 
-coinbase.CreateAsset("jeffrey888" ,  function(err, tran_res) {
+coinbase.CreateAsset("MyPassword" ,  function(err, tran_res) {
 
         // console.log ( JSON.stringify( tran_res , null, '\t')) ;
         console.log ( "======================== End =================" ) ;
