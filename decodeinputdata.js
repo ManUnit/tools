@@ -1,7 +1,7 @@
 const InputDataDecoder = require('ethereum-input-data-decoder');
 const decoder = new InputDataDecoder(`${__dirname}/Transfer.abi`);
 var Web3 = require('web3');
-var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:9971"));
+var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
 txHash = '0xbde216ff3d63c7e54b3dcd7d55e44c5f1a1cdcff919427fe30da6f49f6a9cc11' ;
 
